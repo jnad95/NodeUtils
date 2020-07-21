@@ -20,10 +20,12 @@ var obj = {
 var server = http.createServer(function(req, res){
   console.log(`requested url: ${req.url}`);
   res.writeHead(status, header);
-  // res obj expects either a string or a buffer.
-  // hence this is wrong -> res.end(obj);
-  // obj is an object and needs to be converted to a string.
-  // and therefore we need to serialize it.
+  /**
+   * res obj expects either a string or a buffer.
+   * hence this is wrong -> res.end(obj);
+   * obj is an object and needs to be converted to a string.
+   * and therefore we need to serialize it.
+   */
   res.end(JSON.stringify(obj));
 });
 

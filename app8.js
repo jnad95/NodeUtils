@@ -1,6 +1,6 @@
 /**
  * Module Patterns
- * */ 
+ */ 
 var stuff = require("./stuff")
 
 console.log(stuff.counter(['adityaja']));

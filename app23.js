@@ -1,5 +1,5 @@
 /**
- * Basic Routing (bad way)
+ * Basic Routing
  */
 
 var http = require('http');

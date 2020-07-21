@@ -1,6 +1,6 @@
 /**
  * removing files using "fs" module
- * */
+ */
 
 var fs = require('fs');
 

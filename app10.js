@@ -1,7 +1,7 @@
 /**
  * inheritance exmaple
  * Practical application for events module
- * */ 
+ */ 
 
 var events = require('events');
 var util = require('util'); // let us inherit another obj
@@ -10,8 +10,10 @@ var Person = function(name) {
   this.name = name;
 };
 
-// 1 arg is class which want to inherit another class. AKA child class
-// 2 arg is the class from which we want to inherit from. AKA Parent class
+/**
+ * 1 arg is class which want to inherit another class. AKA child class
+ * 2 arg is the class from which we want to inherit from. AKA Parent class
+ */
 util.inherits(Person, events.EventEmitter);
 
 var adityaja = new Person('adityaja');

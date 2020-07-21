@@ -28,7 +28,7 @@ var server = http.createServer(function(req, res){
   var readStream = fs.createReadStream(source_filename, charset);
 
   /** 
-   *  we are piping the read stream with res obj which also a writable stream.
+   * we are piping the read stream with res obj which also a writable stream.
    */
   readStream.pipe(res);
 });

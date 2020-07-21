@@ -1,12 +1,15 @@
 /**
  * removing files and directories using "fs" module
- * */
+ */
 
 var fs = require('fs');
 
-// following are the blocking calls
-// fs.mkdirSync('stuff');
-// fs.rmdirSync('stuff');
+/* 
+# following are the blocking calls
+
+ fs.mkdirSync('stuff');
+ fs.rmdirSync('stuff');
+*/
 
 // following are the non-blocking calls
 /*
@@ -18,8 +21,6 @@ fs.mkdir('stuff', function(){
   });
 });
 */
-
-
 
 fs.unlink('./stuff/writeMe.txt', function(){
   console.log('file removed');

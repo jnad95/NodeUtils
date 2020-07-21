@@ -5,7 +5,7 @@
  * readSteam's "on" events usage 
  * Here in this example content is written to writeStream based on the 
  * "receive" events from readStream.
- * */ 
+ */ 
 
 var fs = require('fs');
 
@@ -16,7 +16,7 @@ var readStream = fs.createReadStream(source_filename, charset);
 dest_filename = __dirname + '/writeMe.txt';
 /** 
  * write stream can write data to another stream
-*/
+ */
 var writeStream = fs.createWriteStream(dest_filename);
 
 readStream.on('data', function(chunk){

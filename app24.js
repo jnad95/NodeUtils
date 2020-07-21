@@ -2,7 +2,7 @@
  * in this example we will talk about the
  * one of the most famous NodeJs Framework
  * "express"
-*/
+ */
 
 // importing express
 var express = require('express');
@@ -15,7 +15,7 @@ var port = 3000;
 /**
  * While using express we don't need to specify the `content-type` in header explicitly.
  * express is smart enough to detect it, automatically.
-*/
+ */
 
 /**
  * 1st arg is the route
@@ -39,10 +39,10 @@ app.listen(port);
  *    - POST
  *    - DELTE
  *    - PUT
-*/
+ */
 
 /**
  * GET - app.get('route', fn);
  * POST - app.post('route', fn);
  * DELETE - app.delete('route', fn);
-*/
+ */
