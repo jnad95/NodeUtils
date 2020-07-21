@@ -1,4 +1,6 @@
-// Basic Routing
+/**
+ * Basic Routing (bad way)
+ */
 
 var http = require('http');
 var fs = require('fs');

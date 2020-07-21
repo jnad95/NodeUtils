@@ -1,3 +1,8 @@
+/**
+ * example for setInterval
+*/
+
+
 var time = 0;
 
 // setInterval is one if the inbuilt functions use to perform

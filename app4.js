@@ -1,3 +1,7 @@
+/**
+ * basic of file system navigation
+ */
+
 //printing current diretory name
 console.log(__dirname);
 

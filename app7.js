@@ -1,4 +1,6 @@
-// Module and require
+/**
+ * Module and require
+ * */
 
 // require returns the function here
 var counter = require('./count')

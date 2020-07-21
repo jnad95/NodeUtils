@@ -1,4 +1,6 @@
-//passing function to another function
+/**
+ * passing function to another function
+ * */
 
 function callFunction(fun) {
   fun();

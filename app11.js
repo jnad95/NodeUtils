@@ -1,4 +1,6 @@
-//read and write files using node core modules
+/**
+ * read files using node core module, readFileSync
+ * */
 
 var fs = require('fs');
 

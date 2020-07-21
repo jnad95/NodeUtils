@@ -1,4 +1,6 @@
-// # function expressions
+/**
+ * function expressions
+ * */
 
 // Module interface uses function expressions
 

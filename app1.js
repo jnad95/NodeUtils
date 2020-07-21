@@ -1,4 +1,6 @@
-// printing statement after every 2 seconds.
+/**
+ * printing statement after every 2 seconds.
+ */
 
 var time = 0;
 

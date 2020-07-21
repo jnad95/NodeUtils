@@ -1,3 +1,8 @@
+/**
+ * inheritance exmaple
+ * Practical application for events module
+ * */ 
+
 var events = require('events');
 var util = require('util'); // let us inherit another obj
 

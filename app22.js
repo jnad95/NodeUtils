@@ -1,3 +1,10 @@
+/**
+ * Usage of JSON is shown in this example
+ * JSON is global object
+ * We will use JSON(global obj) to serialize
+ * the data object in our code
+ */
+
 var http = require('http');
 
 var ip = '127.0.0.1';
@@ -16,7 +23,7 @@ var server = http.createServer(function(req, res){
   // res obj expects either a string or a buffer.
   // hence this is wrong -> res.end(obj);
   // obj is an object and needs to be converted to a string.
-  // and therefore we need to serealize it.
+  // and therefore we need to serialize it.
   res.end(JSON.stringify(obj));
 });
 

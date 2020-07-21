@@ -1,3 +1,7 @@
+/**
+ * removing files and directories using "fs" module
+ * */
+
 var fs = require('fs');
 
 // following are the blocking calls

@@ -1,4 +1,6 @@
-// Event Module
+/**
+ * Event Module
+ * */ 
 
 // Core Module can be refferenced by just their naming it require function,
 // absolute path in not required

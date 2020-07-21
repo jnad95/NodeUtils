@@ -1,3 +1,7 @@
+/**
+ * improved code from previous(20) example
+ */
+
 var http = require('http');
 var fs = require('fs');
 

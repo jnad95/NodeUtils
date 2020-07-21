@@ -1,3 +1,7 @@
+/**
+ * basic example for the "http" module
+ */
+
 var http = require('http')
 
 // 1st arg takes a callback function which in turn takes 2 args,

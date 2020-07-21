@@ -2,6 +2,10 @@
 
 var fs = require('fs');
 
+/**
+ * read files using node core module, readFile
+ * */
+
 var filename = 'app5.js';
 
 // async. non-blocking code. code will move forward even if this statement execution is not finished.
