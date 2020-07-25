@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/styles.css">
+    <title>Aditya's WebPage</title>
+  </head>
+  <body>
+    <!-- 
+        injecting partial views(partial ejs template) in this ejs template
+    -->
+    <%- include('partials/nav.ejs') %>
+    <h1>Aditya's Own Contact US WebPage</h1>
+    <p>This is the contact-us webpage that is owned by Aditya. He is a great developer. Contact info is not given here.</p>
+    <p> Department is <%= qs.dept %> </p>
+    
+    <form id="contact-form">
+        <label for="who"> who do you want to contact?</label>
+        <input type="text" name="who" value="<%= qs.name %>" />
+        <label for="department">which department?</label>
+        <input type="text" name="department" value="<%= qs.dept%>" />
+        <label for="email">Your email</label>
+        <input type="email" name="email" />
+        <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>

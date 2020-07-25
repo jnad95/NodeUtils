@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style media="screen">
+      body {background: skyblue; font-family: verdana; color: #fff; paddin: 30px}
+      h1 {font-size: 48px; text-transform: uppercase; letter-spacing:2 px; text-align: center;}
+      h2 {font-size: 30px; text-transform: uppercase; letter-spacing:2 px; text-align: center;}
+      li {font-size: 20px; text-align: center; color: rgba(0, 0, 0, 0.959)}
+      p {font-size: 20px; text-align: center;}
+    </style>
+    <meta charset="utf-8">
+    <title>Aditya's WebPage</title>
+  </head>
+  <body>
+    <h1>Aditya's Own WebPage</h1>
+    <p>This is the webpage <%= person %></p>
+    <p>Age is <%= data.age %></p>
+    <p>job is <%= data.job %></p>
+    <h2>hobbies</h2>
+    <ol>
+      <% data.hobbies.forEach(function(item) { %>
+      <li> <%= item %> </li>
+      <% }); %>
+      </ol>
+  </body>
+</html>

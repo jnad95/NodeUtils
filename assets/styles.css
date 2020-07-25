@@ -1,0 +1,5 @@
+body {background: skyblue; font-family: verdana; color: #fff; paddin: 30px}
+h1 {font-size: 48px; text-transform: uppercase; letter-spacing:2 px; text-align: center;}
+h2 {font-size: 30px; text-transform: uppercase; letter-spacing:2 px; text-align: center;}
+li {font-size: 20px; text-align: center; color: rgba(0, 0, 0, 0.959)}
+p {font-size: 20px; text-align: center;}

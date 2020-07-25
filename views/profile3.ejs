@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>    
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/styles.css">
+    <title>Aditya's WebPage</title>
+  </head>
+  <body>
+    <!-- 
+        injecting partial views(partial ejs template) in this ejs template
+    -->
+    <%- include('partials/nav.ejs') %>
+    <h1>Aditya's Own WebPage</h1>
+    <p>This is the webpage <%= person %></p>
+    <p>Age is <%= data.age %></p>
+    <p>job is <%= data.job %></p>
+    <h2>hobbies</h2>
+    <ol>
+      <% data.hobbies.forEach(function(item) { %>
+      <li> <%= item %> </li>
+      <% }); %>
+      </ol>
+  </body>
+</html>
